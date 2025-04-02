@@ -2,7 +2,7 @@
 This project simulates the Batcomputer interface and receives data from sensors connected by ESP32.   
 
 ## 🚀 Technologies Used  
-- **Frontend:** Electron.js + React/Vue  
+- **Frontend:** Tauri + React/Vue  
 - **Backend:** Python + FastAPI  
 - **Hardware:** ESP32, Arduino, Sensores (DHT22, PIR, etc.)  
 - **Comunicación:** MQTT / WebSockets  
