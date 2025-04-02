@@ -1,23 +1,34 @@
 # 🦇 Batcomputer Project  
-Este proyecto simula la interfaz del Batcomputer y recibe datos de sensores conectados por ESP32.  
+This project simulates the Batcomputer interface and receives data from sensors connected by ESP32.   
 
-## 🚀 Tecnologías Usadas  
+## 🚀 Technologies Used  
 - **Frontend:** Electron.js + React/Vue  
 - **Backend:** Python + FastAPI  
 - **Hardware:** ESP32, Arduino, Sensores (DHT22, PIR, etc.)  
 - **Comunicación:** MQTT / WebSockets  
 
-## 📌 Funcionalidades  
-✅ Autenticación con huella digital  
-✅ Datos en tiempo real desde sensores  
-✅ UI estilo Batman  
+## 📌 Features  
+✅ Fingerprint Authentication  
+✅ Real-time data from sensors  
+✅ Batman-style UI  
 
-## 📂 Estructura del Proyecto  
-- `frontend/` → Interfaz de usuario  
-- `backend/` → Procesamiento de datos  
-- `esp32/` → Código para los sensores  
+## 📂 Project Structure   
+- `frontend/` → User interface
+- `backend/` → Data processing  
+- `esp32/` → Code for sensors  
 
-## 📅 Tareas Pendientes  
-- [ ] Diseño de la UI  
-- [ ] Integración de sensores  
-- [ ] Implementar autenticación por huella  
+## 🎆 Module 1:
+- DHT11/DHT22 (Temperature and humidity)  
+- BMP280/BME280 (Atmospheric Pressure and Temperature)  
+- MQ-135 (Air quality)
+- MQ-2 (Gas, smoke)
+- Thermistor (Additional temperature)
+- Photoreceptor (LDR) (Ambient light)
+
+## 🎆 Module 2:
+- HC-SR04 (Ultrasound for distance) 
+- Servo motor (to move the sonar)
+- Flame sensor
+- Red laser module
+- Receiver photodiode
+- Camera
